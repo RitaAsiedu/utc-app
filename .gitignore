@@ -1,0 +1,30 @@
+# Simple .gitignore for Terraform AWS Project
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Variable files with secrets
+terraform.tfvars
+*.tfvars
+
+# SSH keys
+*.pem
+*.key
+
+# AWS credentials
+.aws/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
